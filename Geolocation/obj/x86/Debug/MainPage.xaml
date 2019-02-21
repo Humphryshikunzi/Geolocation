@@ -1,0 +1,22 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Geolocation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Geolocation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                              >
+
+    <StackPanel >
+        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Name="MyTextBlock" Width="200" TextWrapping="Wrap"></TextBlock>
+        <TextBlock x:ConnectionId='3' Name="TextBlock1" TextWrapping="Wrap"> Is delivered on-demand via the Web – Also called Software as a Service (SaaS) and cloudware – Includes free software and fee-based software Advantages – Files can be accessed from any computer with an Internet connection – Ease of implementation – Improved collaboration capabilities – Always working with the most current version of software Potential Disadvantages – Online applications tend to run more slowly – Have file size limits – Cost may eventually exceed the cost of purchasing a similar installed version of the software-Web-based Software
+            • Collection of software programs bundled together and sold as a single software package • Office suites are used by most businesses / individuals to produce documents and typically include: – Word processing software – Spreadsheet software – Database software – Presentation graphics software – Additional productivity tools like calendars, messaging programs, or collaboration tools • Provide a common interface among programs in the suite Software Suites
+            Common Software Commands
+            • Ribbon used in Microsoft Office 2007, 2010, 2013 – Commands are organized into groups located on tabs – Contextual tabs appear on the Ribbon as needed and contain special commands</TextBlock>
+        <TextBlock x:ConnectionId='4' Name="TextBlock2"/>
+       
+    </StackPanel>
+</Page>
+
